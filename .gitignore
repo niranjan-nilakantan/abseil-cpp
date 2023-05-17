@@ -9,7 +9,9 @@ build
 # Ignore QtCreator Project file
 CMakeLists.txt.user
 # Ignore VS Code files
+.cache/*
 .vscode/*
+cmake-variants.yaml
 # Ignore generated python artifacts
 *.pyc
 copts/__pycache__/
